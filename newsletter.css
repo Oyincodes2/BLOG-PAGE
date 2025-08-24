@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f172a;
+    padding: 0px 6rem;
+    color: white;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px;
+    margin: 20px 0px;
+}
+.logo{
+    width: 150px
+}
+ul{
+    display: flex;
+}
+.navbar-container ul li{
+    list-style: none;
+    margin: 0 20px
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+/*Newsletter*/
+
+.newsletter{
+    color:#22D3EE;
+}
+.subscribe{
+    align-items: center;
+    margin: 10px 150px;
+}
+.subscribe h1{
+    text-align: center;
+}
+.subscribe p{
+    font-size: 15px;
+    margin: 30px;
+}
+.subscribe ul{
+    display: block;
+    font-size: 15px;
+    margin: 0px 60px;
+}
+.footer{
+    display: flex;
+    padding: 20px 0px;
+    color: white;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+}
+form{
+    flex: 0 0 420px;
+    display: flex;
+    margin: 30px 120px;
+    align-items: center;
+    padding-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

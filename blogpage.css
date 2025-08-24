@@ -8,6 +8,8 @@ body{
     background-color: #0f172a;
     padding: 0px 6rem;
     color: white;
+    flex-wrap: wrap;
+   
 }
 .navbar-container{
     display: flex;
@@ -30,102 +32,24 @@ ul li a{
     color:white;
     text-decoration: none;
 }
-.container{
-    width:100%;
-}
-.container-1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 0px;
-}
-.content-container{
-    width: 55%;
-    color: white;
-    margin: 30px 0px;
-}
-.content-container p{
-    margin: 25px 0px;
-    line-height: 2rem;
-}
-.icon-container svg{
-    width: 40px;
-    margin: 0px 10px;
-}
-.mockup{
-  width: 225px;
-}
-.landing-page-container{
-    margin: 0px 70px;
-}
-.container-recent-project{
+/* All Project*/
+.all-projects{
     display:block;
-    width: 91%;
-    margin: 85px 70px;
-    padding: 0px 20px;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
+    margin: 70px 0px;
+}
+.post-example{
     justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.Project1{
-    display: flex;
-    background: #1e293b61;
-    border-radius: 13px;
-    padding: 30px;
-    margin-bottom: 30px;
-    
+.post-example h3{
+    font-size: 16px;
+    margin:40px 0px;
+    font-weight: lighter;
 }
-.Project-description {
-    margin: 0 0 10px 0;
-    color: white;
-    padding: 20px 65px;
-    font-size: 13px;
-    line-height: 2rem;
+.title .view-less{
+    justify-content: flex-start;
 }
-
-.Project2{
-    display: flex;
-    background: #1e293b61;
-    border-radius: 13px;
-    padding: 30px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-
-.Project3{
-    display: flex;
-    background: #1e293b61;
-    border-radius: 13px;
-    padding: 30px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-.web-design{
-    font-size: 12px;
-    margin-left: 20px;
-    padding: 2px 8px;
-    border-radius: 12px;
-    background-color: #20b45638;
-    color:green;
-}
-.next-js{
-    font-size: 12px;
-    margin-left: 20px;
-    padding: 2px 8px;
-    border-radius: 12px;
-    background-color: #d3515158;
-    color:red;
-}
-.feature{
-     font-size: 12px;
-    margin-left: 20px;
-    padding: 2px 8px;
-    border-radius: 12px;
-    background-color: #2564eb36;
-    color:rgb(73, 73, 221);
-}
-
 
 /* Latest-project-container */
 .latest-project{
@@ -158,12 +82,26 @@ ul li a{
 .project-container-1 .date{
     margin: 15px 0px;
 }
+.project-container-1 a{
+    text-decoration: none;
+    color: white;
+}
 .project-container-2 .date{
     margin: 15px 0px;
 }
 .project-container-3 .date{
     margin: 15px 0px;
 }
+.project-container-4 .date{
+    margin: 15px 0px;
+}
+.project-container-5 .date{
+    margin: 15px 0px;
+}
+.project-container-6 .date{
+    margin: 15px 0px;
+}
+
 
 .project-container-1{
     padding: 9px 18px;
@@ -195,6 +133,44 @@ ul li a{
     background-color:  rgba(112, 128, 144, 0.38);
     justify-content: space-between;
 }
+.project-container-4{
+    padding: 9px 18px;
+    margin: 5px 15px;
+    width: 500px;
+    height: 400px;
+    display: block;
+    border-radius: 40px;
+    background-color:  rgba(112, 128, 144, 0.38);
+    justify-content: space-between;
+}
+.project-container-5{
+    padding: 9px 18px;
+    margin: 5px 15px;
+    width: 500px;
+    height: 400px;
+    display: block;
+    border-radius: 40px;
+    background-color:  rgba(112, 128, 144, 0.38);
+    justify-content: space-between;
+}
+.project-container-6{
+    padding: 9px 18px;
+    margin: 5px 15px;
+    width: 500px;
+    height: 400px;
+    display: block;
+    border-radius: 40px;
+    background-color:  rgba(112, 128, 144, 0.38);
+    justify-content: space-between;
+}
+
+.top-three-project{
+    display: flex;
+}
+.bottom-three-project{
+    display: flex;
+    margin: 30px 0px;
+}
 
 
 
@@ -218,11 +194,11 @@ ul li a{
     font-size: 28px;
     font-weight: bold;
 }
-/* .form{
+.form{
     flex: 0 0 420px;
     display: flex;
     justify-content: flex-end;
-} */
+}
 .footer{
     display: flex;
     padding: 20px 0px;
@@ -246,31 +222,3 @@ ul li a{
 
 
 
-/* p{
-    color: white;
-}
-
-.content-container h1{
-    color: white;
-}
-.image-container{
-    margin: 20px;
-}
-.name{
-    color: rgb(45, 45, 228);
-}
-
-.navlinks-container ul{
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.navlinks-container ul li a{
-    display: flex;
-    justify-content: flex-end;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    b0rder-s
-} */
