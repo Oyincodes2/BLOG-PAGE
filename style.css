@@ -31,7 +31,7 @@ ul li a{
     text-decoration: none;
 }
 .container{
-    width:100%;
+    width: 100%;
 }
 .container-1{
     display: flex;
@@ -234,43 +234,326 @@ ul li a{
 }
 
 
+@media screen and (max-width: 480px){
 
+    body{
+        font-size: 14px;
+        padding: 10px;
+    }
+    header{
+        flex-direction: row;
+        align-items: center;
+    }
+    header nav{
+        margin-top: 10px;
+    }
+    .container-1{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-/* p{
+    .content-container{
+    width: 95%;
     color: white;
+    margin: 30px 0px;
+    }
+
+    .recent{
+        align-items: center;
+        justify-content: center;
+        margin: 50px 70px;
+    }
+
+    .Project1, .Project2, .Project3 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 15px;
+        margin-right: 40px;
+        width: 90%;
+        margin-left: 0px;
+    }
+    .Project-description{
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: left;
+    }
+    .container-recent-project img{
+        padding: 12px;
+        font-size: 14px;
+    }
+    .latest-project{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Latest-project-container{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+        font-size: 14px;
+        line-height: 1.1;
+        text-align: left;
+        
+    }
+    .project-container-1, .project-container-2, .project-container-3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 15px;
+        margin-right: 40px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+
+    }
+
+    .subscribe{
+        display: block;
+    }
+    .Newsletter-content p{
+        margin: 20px 0px;
+    
+    }
 }
 
-.content-container h1{
+@media screen and (min-width: 481px) and (max-width: 768px) { /*tablet*/
+     body{
+        font-size: 14px;
+        padding: 10px;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav{
+        margin-top: 10px;
+    }
+    .container-1{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+    }
+
+    .content-container{
+    width: 95%;
     color: white;
-}
-.image-container{
-    margin: 20px;
-}
-.name{
-    color: rgb(45, 45, 228);
+    margin: 30px 0px;
+    }
+
+    .recent{
+        align-items: center;
+        justify-content: center;
+        margin: 50px 70px;
+    }
+
+    .Project1, .Project2, .Project3 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 15px;
+        margin-right: 40px;
+        width: 90%;
+        margin-left: 0px;
+    }
+    .Project-description{
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: left;
+    }
+    .container-recent-project img{
+        padding: 12px;
+        font-size: 14px;
+    }
+    .latest-project{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Latest-project-container{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+        font-size: 14px;
+        line-height: 1.1;
+        text-align: left;
+        
+    }
+    .project-container-1, .project-container-2, .project-container-3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 15px;
+        margin-right: 40px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+
+    }
+
+    .subscribe{
+        display: block;
+    }
+    .Newsletter-content p{
+        margin: 20px 0px;
+    
+    }
 }
 
-.navlinks-container ul{
-    list-style-type: none;
-    padding-left: 0;
-}
+@media screen and (min-width: 769px) and (max-width: 1023px){
 
-.navlinks-container ul li a{
-    display: flex;
-    justify-content: flex-end;
-    font-weight: bold;
-    text-decoration: none;
+    body{
+        font-size: 14px;
+        padding: 10px;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav{
+        margin-top: 10px;
+    }
+    .container-1{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+    }
+
+    .content-container{
+    width: 95%;
     color: white;
-    display: inline-block;
-    b0rder-s
-} */
+    margin: 30px 0px;
+    }
+
+    .recent{
+        align-items: center;
+        justify-content: center;
+        margin: 50px 70px;
+    }
+
+    .Project1, .Project2, .Project3 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 15px;
+        margin-right: 40px;
+        width: 90%;
+        margin-left: 0px;
+    }
+    .Project-description{
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: left;
+    }
+    .container-recent-project img{
+        padding: 12px;
+        font-size: 14px;
+    }
+    .latest-project{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Latest-project-container{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+        font-size: 14px;
+        line-height: 1.1;
+        text-align: left;
+        
+    }
+    .project-container-1, .project-container-2, .project-container-3{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 15px;
+        margin-right: 40px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+
+    }
+
+    .subscribe{
+        display: block;
+    }
+    .Newsletter-content p{
+        margin: 20px 0px;
+    
+    }
+}
+
+@media screen and (min-width: 1280px) { /*Destop*/
+    body {
+        font-size: 18px;
+        padding: 40px;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 100px;
+    }
+    .content-container {
+        width: 70%;
+        margin: 50px auto;
+    }
+    .recent {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 100px;
+    }
+    .Project1, .Project2, .Project3 {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .Project-description {
+        font-size: 16px;
+        line-height: 1.8;
+        padding: 30px;
+    }
+    .Latest-project-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        width: 80%;
+        margin: auto;
+    }
+    .project-container-1, .project-container-2, .project-container-3 {
+        flex-direction: column;
+        width: 30%;
+    }
+    .subscribe {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px auto;
+        width: 80%;
+    }
+}
+
+

@@ -111,6 +111,94 @@ ul li a{
 }
 
 
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 50px;
+    }
+
+
+  
+    .navbar-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .navbar-container ul {
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+   
+    .title h1 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+    .title h3 {
+        font-size: 14px;
+        margin: 15px 0;
+        text-align: center;
+    }
+    .title .Project1 {
+        width: 100%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+
+    .content {
+        margin: 20px 0;
+    }
+    .content-1,
+    .content-2,
+    .content-3,
+    .content-4 {
+        margin: 30px 0;
+    }
+    .content-1 p,
+    .content-2 p,
+    .content-3 p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .list {
+        margin: 15px 0;
+        padding-left: 20px;
+    }
+
+   
+    .subscribe {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .Newsletter-content {
+        width: 100%;
+    }
+    .subscribe form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .subscribe input,
+    .subscribe button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+    .icon {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+
 
 
 

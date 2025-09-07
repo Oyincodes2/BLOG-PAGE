@@ -210,6 +210,83 @@ ul li a{
 }
 
 
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 1rem;
+    }
+
+
+    .navbar-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .navbar-container ul {
+        flex-direction: row;
+        gap: 0px;
+        margin-top: 10px;
+    }
+
+   
+    .post-example h1 {
+        font-size: 22px;
+    }
+    .post-example h3 {
+        font-size: 14px;
+    }
+
+   
+    .top-three-project,
+    .bottom-three-project {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-container-1,
+    .project-container-2,
+    .project-container-3,
+    .project-container-4,
+    .project-container-5,
+    .project-container-6 {
+        width: 100%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+  
+    .subscribe {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .Newsletter-content {
+        width: 100%;
+    }
+    .subscribe form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .subscribe input,
+    .subscribe button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+   
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+    .icon {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+
 
 
 

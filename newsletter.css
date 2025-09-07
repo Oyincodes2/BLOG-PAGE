@@ -71,6 +71,68 @@ form{
 }
 
 
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 1rem;
+    }
+
+   
+    .navbar-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .navbar-container ul {
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    
+    .subscribe {
+        margin: 200px 0;
+        text-align: center;
+    }
+    .subscribe h1 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    .subscribe p,
+    .subscribe ul {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+    .subscribe ul {
+        margin-left: 0;
+    }
+
+    form {
+        width: 100%;
+        margin: 20px 0;
+        padding: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+    form input,
+    form button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+    .footer {
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 15px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .icon {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+
+
 
 
 
